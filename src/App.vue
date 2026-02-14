@@ -15,9 +15,9 @@ const voteMessage = computed(() => {
 })
 
 const catImage = computed(() => {
-  if (voted.value === 'approve') return '/cat_with_flower.webp'
-  if (voted.value === 'disapprove') return '/cat_with_knife.webp'
-  if (voted.value === 'no-opinion') return '/cat_with_book.webp'
+  if (voted.value === 'approve') return '/valentine-2026/cat_with_flower.webp'
+  if (voted.value === 'disapprove') return '/valentine-2026/cat_with_knife.webp'
+  if (voted.value === 'no-opinion') return '/valentine-2026/cat_with_book.webp'
   return ''
 })
 
